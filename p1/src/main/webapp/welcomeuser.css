@@ -1,0 +1,41 @@
+body
+{
+  background-color: rgb(53, 56, 65);
+  background-image: url("background2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  justify-items: center;
+  align-items: center;
+
+}
+th
+{
+    color:aquamarine;
+}
+h1
+{
+    color:aquamarine;
+}
+
+ul#navbar li{
+  display: inline;
+}
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffe96f;
+}
+
+ul#navbar li {
+  float:left;
+}
+
+ul#navbar li a {
+  display: block;
+  color: #000000;
+  font-weight:bold;
+  padding: 8px 16px;
+  text-decoration: none;
+}

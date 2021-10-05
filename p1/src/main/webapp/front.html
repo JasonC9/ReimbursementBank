@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <ul id="navbar">
+            <li><a href="front.html">Login</a></li>
+            <li><a href="EmployeeLogin.html">Manager Login</a></li>
+        </ul>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="styles.css">
+        <title>
+            Reimbursement Bank
+        </title>
+        <h1>
+            Reimbursement Bank
+        </h1>
+    </head>
+    <body>
+
+        <form>
+        
+            <div style="align-items: center;">
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" class="usname" name="uname" id="uname" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" class="pass" name="psw" id="psw" required>
+          	  
+              <button type="button" onclick= "login()" value="Login" id="loginB ">Login</button>
+            </div>
+            </div>
+        </form>
+         <script src="login.js">
+        </script>
+    </body>
+</html>

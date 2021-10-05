@@ -1,0 +1,96 @@
+div{
+  align-items: center;
+  padding-right: 20%;
+}
+form{
+  margin: auto;
+  width:250px;
+  padding: 50px;
+  padding-left:6px;
+}
+button
+{
+  width: 223px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
+h1
+{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50;
+  padding: 50px;
+  font-family: fantasy;
+}
+label
+{
+  font-size: 20;
+  color:rgb(253, 154, 87);
+  font-family: fantasy;
+  word-spacing: 10px;
+}
+body
+{
+  background-color: rgb(53, 56, 65);
+  background-image: url("background2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  justify-items: center;
+  align-items: center;
+
+}
+.usname
+{
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px 10px 5px 40px;
+}
+.pass
+{
+  border-bottom: 1px solid #3a3a3a;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px 10px 5px 40px;
+}
+.container
+{	
+	background-image: url("spacebg2.jpg");
+    padding: 40px;
+    margin-top: 150px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 220px;
+    background-color: LightSeaGreen;
+}
+
+ul#navbar li{
+  display: inline;
+}
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffe96f;
+}
+
+ul#navbar li {
+  float:left;
+}
+
+ul#navbar li a {
+  display: block;
+  color: #000000;
+  font-weight:bold;
+  padding: 8px 16px;
+  text-decoration: none;
+}

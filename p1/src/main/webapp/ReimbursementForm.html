@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <ul id="navbar">
+        <li><a href="WelcomeServlet">Home</a></li>
+        <li><a href="ReimbursementForm.html">Request</a></li>
+        </ul>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Reimbursement.css">
+        <Title>
+            Reimbursement Form
+        </Title>
+        <h1>Reimbursement Form</h1>
+
+            <form>
+                <div class="container">
+                <label for="amount">Amount</label>
+                <input type="number" step="0.01" id="amount" required>
+                <label for="reason">Reason</label>
+                <select class="form-control" id="reason">
+                    <option>Order Created by Mistake</option>
+                    <option>Fraud</option>
+                    <option>Damaged Product</option>
+                    <option>Not Satisfied with Product</option>
+                </select>
+                <label for="expl">Explanation</label>
+                <input type="text" id="explan" required>
+                <button type="button" value="Login" id="loginB "onclick="sendRequest()">Submit</button>
+            </div>
+            </form>
+         <script src="reimbursement.js">
+        </script>
+    </head>
+</html>
