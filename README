@@ -1,0 +1,13 @@
+This a Reimbursement Bank project.
+
+What is used?
+1. Java
+2. Servlets
+3. Html
+4. Javascript
+5. CSS
+6. DAO design pattern
+7. Amazon RDS server
+
+Get tomcat server to connect.
+Run the front.html through tomcat and you can start your registration.
